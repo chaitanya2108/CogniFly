@@ -1,0 +1,71 @@
+.module-view {
+  padding: 20px;
+}
+
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.summarize-btn {
+  background-color: #5b4dc5;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.video-container {
+  background-color: #4a3b8c;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.module-video {
+  border-radius: 15px;
+  width: 100%;
+}
+
+/* New Language Selector Styles */
+.language-container {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.language-dropdown {
+  background-color: #5b4dc5;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.language-dropdown:hover {
+  background-color: #4a3b8c;
+}
+
+.language-dropdown:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(91, 77, 197, 0.2);
+}
+
+.language-dropdown option {
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+}
+
+/* Add to existing styles */
+.loading-translation {
+  text-align: center;
+  padding: 20px;
+  color: #5b4dc5;
+  font-style: italic;
+}
