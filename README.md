@@ -1,52 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# CogniFly 🎓✨
+*Transforming Text into Immersive Learning Experiences*
 
-## Steps
+## 🚀 Overview
 
-use npm to intall the dependencies
-then npm run lint
-npm run dev
+**CogniFly** is a revolutionary AI-powered learning platform designed to convert dense and static educational content into dynamic, personalized video experiences. Whether a learner is neurodivergent, multilingual, or simply more visual in learning style, CogniFly ensures that education becomes accessible, engaging, and effective for all.
 
-## Lint
+> “Because education should be felt, seen, and experienced, not just read.”
 
-```bash
-npm run lint
-```
+---
 
-## Getting Started
+## 📌 Problem Statement
 
-First, run the development server:
+Traditional learning resources are outdated, inaccessible to diverse learners, and not optimized for engagement or comprehension:
+- 251M children remain out of school globally (UNESCO, 2024)
+- 40% of students lack access to education in a language they understand
+- Over 1 in 4 U.S. adults have a disability, including cognitive impairments
+- Visual learning enhances retention by up to 400%
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💡 Our Solution
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+CogniFly addresses these challenges with a comprehensive AI toolkit:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Text-to-Video Generation**  
+  Seamlessly turn PDFs or text into engaging AI-generated videos.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- **Multilingual Transcripts & Captions**  
+  Support for rare dialects and sign language for inclusivity.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Neurodivergent-Friendly Modes**  
+  Personalized interfaces for individuals with ADHD, dyslexia, and sensory sensitivities.
 
-## Learn More
+- **Interactive Learning Modules**  
+  Quizzes, annotations, and dynamic visual cues enhance understanding and retention.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## 🧠 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Design**: Figma  
+- **Frontend**: React.js  
+- **Backend**: Django  
+- **AI/ML**: Hugging Face APIs for text-to-speech and video synthesis
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠 System Architecture
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- Input: PDF/Text → Split into Scenes  
+- Process:
+  - Video Generator (Text-to-Video)
+  - Narrator (Text-to-Audio)
+  - Captioner (Text-to-Text)
+- Output: Final multilingual, interactive video content
+
+(See [System Architecture Diagram on page 7 of the deck](#))
+
+---
+
+## 💻 Platform UI
+
+The UI enables:
+- Viewing lesson plans
+- Navigating transcripts and videos
+- Toggling between languages
+- Personalizing playback for learning preferences
+
+(See screenshots on page 8–9 of the deck)
+
+---
+
+## 🔮 Future Scope
+
+- 🌐 Real-time sign language & multilingual narration
+- 🎮 Gamified experiences with AR/VR and AI-driven adaptability
+- 🧑‍🤝‍🧑 Community-driven platform for collaborative learning creation
+
+---
+
+## 📚 Resources & References
+
+- UNESCO: [Global Education Report](https://news.un.org/en/story/2024/10/1156366)  
+- CDC: [Disability Infographic](https://www.cdc.gov/disability-and-health/articles-documents/disability-impacts-all-of-us-infographic.html)  
+- LMC: [Visual Learning Insights](https://www.lmc.org/news-publications/magazine/july-aug-2023/message-matters-july-2023/)  
+
+---
+
+## 🙌 Team & Acknowledgements
+
+Built for **Philly CodeFest** with a passion for accessible education and immersive technology. Special thanks to the organizers, mentors, and everyone supporting inclusive learning innovation.
+
+---
